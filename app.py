@@ -10,7 +10,6 @@ from youtube_transcript_api import YouTubeTranscriptApi
 SCOPES = ['https://www.googleapis.com/auth/youtube.force-ssl']
 CLIENT_SECRETS_FILE = os.getenv(
     "YOUTUBE_CLIENT_SECRET",
-    "/Users/jehyunsung/Desktop/youtube/client_secrets.json"
 )
 TOKEN_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "token.pickle")
 
